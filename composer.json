@@ -1,0 +1,13 @@
+{
+  "name": "torrenttv/partner-api",
+  "description": "PHP wrapper for http api.",
+  "homepage": "http://partner.torrent-tv.ru/api.php",
+  "license": "MIT",
+  "require": {
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "require-dev": {},
+  "autoload": {
+    "psr-4": { "TorrentTv\\PartnerApi\\": "src/" }
+  }
+}
